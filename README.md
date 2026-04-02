@@ -8,5 +8,9 @@
     https://www.jetbrains.com/zh-cn/pycharm/
 
 
-## 【2026.4.2】
-### 今日学习内容：
+## 2026.4.2
+1. 学会在github上创建仓库，撰写README，提交代码
+2. 从官网下载安装python解释器3.12.10
+3. 从官网下载安装pycharm
+4. 
+
