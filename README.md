@@ -54,8 +54,8 @@ age = int(input("请输入年龄："))
   - 拼接
   - `f-string`
 
-    ```python
+```python
     name = "小明"
     age = 18
     print(f"我叫{name}，今年{age}岁")
-    ```
+```
