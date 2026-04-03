@@ -29,26 +29,34 @@
 ## 2026.4.3
 1. 变量（variables）是什么？就是给数据起名字。
 2. 变量命名：只能字母开头，由字母+数字+下划线构成。通常用英文起名，空格用下划线代替。
-3. 变量赋值：“=右边”赋值给“=左边”
+3. 变量赋值：
+    name = "Tom"
+    age = 18
 4. 常见数据类型：
-- 整数 `int`
-- 浮点数 `float`
-- 字符串 `str`
-- 布尔值 `bool`
+    - 整数 `int`
+    - 浮点数 `float`
+    - 字符串 `str`
+    - 布尔值 `bool`
 5. 查看数据类型：`type()`
 6. 类型转换：
-  ```python
+```python
     int("123")
     float("3.14")
     str(100)
-    ```
+```
 7. 输入输出：
-- 输出：`print()`
-- 输入：`input()`    注意：`input()` 得到的是字符串
+    - 输出：`print()`
+    - 输入：`input()`    注意：`input()` 得到的是字符串
+```python
 age = input("请输入年龄：")
-type(age)
+print(age)
 age = int(input("请输入年龄："))
-type(age)
+```
 8. 格式化输出：
   - 拼接
   - `f-string`
+    ```python
+    name = "小明"
+    age = 18
+    print(f"我叫{name}，今年{age}岁")
+    ```
