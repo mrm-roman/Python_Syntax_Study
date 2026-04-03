@@ -35,4 +35,20 @@
 - 浮点数 `float`
 - 字符串 `str`
 - 布尔值 `bool`
-5. 按时
+5. 查看数据类型：`type()`
+6. 类型转换：
+  ```python
+    int("123")
+    float("3.14")
+    str(100)
+    ```
+7. 输入输出：
+- 输出：`print()`
+- 输入：`input()`    注意：`input()` 得到的是字符串
+age = input("请输入年龄：")
+type(age)
+age = int(input("请输入年龄："))
+type(age)
+8. 格式化输出：
+  - 拼接
+  - `f-string`
