@@ -7,6 +7,7 @@ student = {"name":name,"age":age,"score":score}
 print(f"学生档案录入成功！详细信息：{student}")
 
 
+
 # ### 练习 2：统计字符串中每个字符出现次数
 # 例如： `"hello"` 输出每个字符的次数。
 input_string = input()
